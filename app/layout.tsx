@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: "DrSolv - Healthcare Solutions Platform",
   description:
     "Professional healthcare solutions platform designed to streamline healthcare management. Connect. Collaborate. Succeed.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
