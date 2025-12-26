@@ -14,10 +14,12 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo - CHANGE: Made larger and more visible */}
           <div className="flex items-center gap-3 flex-shrink-0">
-            <div className="w-10 h-10 relative">
-              <Image src="/logo-drsolv.jpg" alt="DrSolv Logo" fill className="object-contain" priority />
+
+            <Link href="/">
+            <div className="w-[100] h-10 relative">
+              <Image src="/logo-drsolv.png" alt="DrSolv Logo" fill className="object-contain" priority />
             </div>
-            <span className="text-gray-900 font-semibold hidden sm:inline text-lg">DrSolv</span>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}

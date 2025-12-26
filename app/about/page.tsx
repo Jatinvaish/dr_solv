@@ -16,14 +16,14 @@ const teamMembers = [
     name: "Founder & CEO",
     description: "Healthcare innovator with 15+ years in emergency medicine and digital health solutions.",
     role: "Visionary leader driving the healthcare transformation",
-    image: "/team/founder-ceo.jpg"
+    image: "/female_doc.jpeg"
   },
   {
     id: 2,
     name: "CTO",
     description: "Full-stack technologist with expertise in healthcare systems, security, and scalable platforms.",
     role: "Building the technical backbone of DrSolv",
-    image: "/team/cto.jpg"
+    image: "/male_doc.jpeg"
   }
 ]
 
@@ -178,12 +178,12 @@ export default function About() {
           >
             {teamMembers.map((member) => (
               <div key={member.id} className="p-8 bg-white rounded-lg border border-gray-200 text-center">
-                <div className="w-24 h-24 relative rounded-full mx-auto mb-4 overflow-hidden">
+                <div className="w-69 h-69 relative rounded-lg  mx-auto mb-4 overflow-hidden">
                   <Image
                     src={member.image}
                     alt={member.name}
                     fill
-                    className="object-cover"
+                    className="object-fit"
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{member.name}</h3>

@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="space-y-3">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 relative flex-shrink-0">
-                <Image src="/logo-drsolv.jpg" alt="DrSolv" fill className="object-contain" />
+                <Image src="/logo-drsolv.png" alt="DrSolv" fill className="object-contain" />
               </div>
               <span className="text-white font-semibold text-lg">DrSolv</span>
             </div>
