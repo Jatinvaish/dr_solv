@@ -10,6 +10,23 @@ import Image from "next/image"
 
 gsap.registerPlugin(ScrollTrigger)
 
+const teamMembers = [
+  {
+    id: 1,
+    name: "Founder & CEO",
+    description: "Healthcare innovator with 15+ years in emergency medicine and digital health solutions.",
+    role: "Visionary leader driving the healthcare transformation",
+    image: "/team/founder-ceo.jpg"
+  },
+  {
+    id: 2,
+    name: "CTO",
+    description: "Full-stack technologist with expertise in healthcare systems, security, and scalable platforms.",
+    role: "Building the technical backbone of DrSolv",
+    image: "/team/cto.jpg"
+  }
+]
+
 export default function About() {
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -149,41 +166,35 @@ export default function About() {
             </p>
           </div>
 
-          <div data-animate className="grid md:grid-cols-3 gap-8 pt-8">
-            <div className="p-8 bg-white rounded-lg border border-gray-200 text-center">
-              <div className="w-24 h-24 bg-[#1B5E7F] rounded-full mx-auto mb-4 flex items-center justify-center text-white text-4xl">
-                👨‍⚕️
+          <div 
+            data-animate 
+            className={`grid gap-8 pt-8 ${
+              teamMembers.length === 1 
+                ? 'md:grid-cols-1 max-w-md mx-auto' 
+                : teamMembers.length === 2 
+                ? 'md:grid-cols-2 max-w-4xl mx-auto' 
+                : 'md:grid-cols-3'
+            }`}
+          >
+            {teamMembers.map((member) => (
+              <div key={member.id} className="p-8 bg-white rounded-lg border border-gray-200 text-center">
+                <div className="w-24 h-24 relative rounded-full mx-auto mb-4 overflow-hidden">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{member.name}</h3>
+                <p className="text-gray-700 font-light mb-2">
+                  {member.description}
+                </p>
+                <p className="text-sm text-[#1B5E7F] font-medium">
+                  {member.role}
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Founder & CEO</h3>
-              <p className="text-gray-700 font-light mb-2">
-                Healthcare innovator with 15+ years in emergency medicine and digital health solutions.
-              </p>
-              <p className="text-sm text-[#1B5E7F] font-medium">
-                Visionary leader driving the healthcare transformation
-              </p>
-            </div>
-
-            <div className="p-8 bg-white rounded-lg border border-gray-200 text-center">
-              <div className="w-24 h-24 bg-[#1B5E7F] rounded-full mx-auto mb-4 flex items-center justify-center text-white text-4xl">
-                👨‍💼
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">CTO</h3>
-              <p className="text-gray-700 font-light mb-2">
-                Full-stack technologist with expertise in healthcare systems, security, and scalable platforms.
-              </p>
-              <p className="text-sm text-[#1B5E7F] font-medium">Building the technical backbone of DrSolv</p>
-            </div>
-
-            <div className="p-8 bg-white rounded-lg border border-gray-200 text-center">
-              <div className="w-24 h-24 bg-[#1B5E7F] rounded-full mx-auto mb-4 flex items-center justify-center text-white text-4xl">
-                👩‍🏫
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Head of Partnerships</h3>
-              <p className="text-gray-700 font-light mb-2">
-                Strategic connector with deep relationships across hospitals, insurance, labs, and pharmacies.
-              </p>
-              <p className="text-sm text-[#1B5E7F] font-medium">Expanding the DrSolv ecosystem</p>
-            </div>
+            ))}
           </div>
         </div>
       </section>

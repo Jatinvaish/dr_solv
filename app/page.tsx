@@ -84,7 +84,7 @@ export default function Home() {
       <DrSolvFeatures />
       <DrSolvEcosystem />
       <DrSolvJourney />
-      <DrSolvImpact />
+      {/* <DrSolvImpact /> */}
       <DrSolvStories />
       <DrSolvTestimonials />
       <DrSolvPartners />
