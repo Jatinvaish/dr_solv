@@ -6,7 +6,6 @@ import ScrollTrigger from "gsap/ScrollTrigger"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import Link from "next/link"
-import { siteConfig } from "@/lib/content"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -42,7 +41,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto text-center space-y-6">
           <div data-animate>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900">
-              About <span className="text-[#1b6a52]">{siteConfig.name}</span>
+              About <span className="text-[#1b6a52]">Unidoc</span>
             </h1>
           </div>
           <div data-animate>
