@@ -5,7 +5,6 @@ import ScrollTrigger from "gsap/ScrollTrigger"
 import { useEffect } from "react"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
-import { siteConfig } from "@/lib/content"
 import { Mail, Phone, MapPin } from "lucide-react"
 
 gsap.registerPlugin(ScrollTrigger)
@@ -60,7 +59,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="text-xl text-gray-700 font-medium">
-            Have questions about {siteConfig.name}? We'd love to hear from you. Our team is ready to help.
+            Have questions about Unidoc? We'd love to hear from you. Our team is ready to help.
           </p>
         </div>
       </section>

@@ -58,13 +58,13 @@ export default function About() {
           <div data-animate className="space-y-6">
             <h2 className="text-4xl font-bold text-gray-900">Our Story</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              {siteConfig.name} was founded with a simple observation: Healthcare professionals are drowning in administrative work while patients struggle to access their own medical records. In modern healthcare systems, critical patient information is fragmented across multiple systems, creating inefficiencies that compromise care quality.
+              Unidoc was founded with a simple observation: Healthcare professionals are drowning in administrative work while patients struggle to access their own medical records. In modern healthcare systems, critical patient information is fragmented across multiple systems, creating inefficiencies that compromise care quality.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               We realized that the solution wasn't better paperwork — it was better technology. Technology that understands healthcare workflows, respects patient privacy, and empowers doctors to spend more time caring and less time searching.
             </p>
             <p className="text-lg text-[#1b6a52] font-semibold">
-              That's when {siteConfig.name} was created — to give every healthcare professional the tools they deserve to deliver exceptional patient care.
+              That's when Unidoc was created — to give every healthcare professional the tools they deserve to deliver exceptional patient care.
             </p>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function About() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto space-y-12">
           <div data-animate className="text-center space-y-3">
-            <h2 className="text-4xl font-bold text-gray-900">Why Choose {siteConfig.name}</h2>
+            <h2 className="text-4xl font-bold text-gray-900">Why Choose Unidoc</h2>
           </div>
 
           <div className="space-y-6">
@@ -154,7 +154,7 @@ export default function About() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Proven Results</h3>
                 <p className="text-gray-700">
-                  Healthcare organizations using {siteConfig.name} report 70% reduction in documentation time, 90% improvement in data access speed, and significant improvement in patient satisfaction.
+                  Healthcare organizations using Unidoc report 70% reduction in documentation time, 90% improvement in data access speed, and significant improvement in patient satisfaction.
                 </p>
               </div>
             </div>
@@ -170,22 +170,22 @@ export default function About() {
           </div>
 
           <div data-animate className="grid md:grid-cols-2 gap-8">
-            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200">
+            <div className="p-8 bg-white rounded-lg border border-gray-200">
               <div className="text-5xl font-bold text-[#1b6a52] mb-2">500+</div>
-              <p className="text-gray-700 font-medium">Healthcare providers using {siteConfig.name}</p>
+              <p className="text-gray-700 font-medium">Healthcare providers using Unidoc</p>
             </div>
 
-            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200">
+            <div className="p-8 bg-white rounded-lg border border-gray-200">
               <div className="text-5xl font-bold text-[#1b6a52] mb-2">50K+</div>
               <p className="text-gray-700 font-medium">Patients benefiting daily from improved care</p>
             </div>
 
-            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200">
+            <div className="p-8 bg-white rounded-lg border border-gray-200">
               <div className="text-5xl font-bold text-[#1b6a52] mb-2">70%</div>
               <p className="text-gray-700 font-medium">Average reduction in documentation time</p>
             </div>
 
-            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200">
+            <div className="p-8 bg-white rounded-lg border border-gray-200">
               <div className="text-5xl font-bold text-[#1b6a52] mb-2">100%</div>
               <p className="text-gray-700 font-medium">HIPAA & ABDM compliance guaranteed</p>
             </div>
@@ -199,7 +199,7 @@ export default function About() {
           <div data-animate>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900">Ready to Transform Your Healthcare Delivery?</h2>
             <p className="text-lg text-gray-700 font-medium mt-4 max-w-2xl mx-auto">
-              Join healthcare professionals who are already using {siteConfig.name} to deliver better patient care.
+              Join healthcare professionals who are already using Unidoc to deliver better patient care.
             </p>
           </div>
 
