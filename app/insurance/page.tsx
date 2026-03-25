@@ -46,7 +46,7 @@ export default function Insurance() {
                 <h1 className="text-5xl md:text-6xl font-light text-gray-900 leading-tight">
                   Redefining healthcare claims —
                   <br />
-                  <span className="text-[#1B5E7F]">faster, smarter, transparent</span>
+                  <span className="text-[#1b6a52]">faster, smarter, transparent</span>
                 </h1>
               </div>
 
@@ -66,7 +66,7 @@ export default function Insurance() {
               <div data-animate className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link
                   href="#"
-                  className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition text-center"
+                  className="px-8 py-3 bg-[#1b6a52] text-white font-medium rounded-lg transition text-center"
                 >
                   Partner with DrSolv
                 </Link>
@@ -98,7 +98,7 @@ export default function Insurance() {
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               The Challenge —
               <br />
-              <span className="text-[#1B5E7F]">"Claims That Start Late and End Later"</span>
+              <span className="text-[#1b6a52]">"Claims That Start Late and End Later"</span>
             </h2>
           </div>
 
@@ -106,30 +106,30 @@ export default function Insurance() {
             <p className="text-lg text-gray-700 font-light">
               The biggest delays come from missing documents, unverified data, and fragmented communication.
             </p>
-            <p className="text-lg text-[#1B5E7F] font-medium mt-4">"It's not inefficiency — it's disconnected data."</p>
+            <p className="text-lg text-[#1b6a52] font-medium mt-4">"It's not inefficiency — it's disconnected data."</p>
           </div>
 
           <div data-animate className="grid md:grid-cols-2 gap-8 pt-8">
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <span className="text-2xl text-[#1B5E7F]">📄</span>
+              <span className="text-2xl text-[#1b6a52]">📄</span>
               <h3 className="font-medium text-gray-900 mt-3 mb-2">Missing Documents</h3>
               <p className="text-gray-700 text-sm">Scattered medical records delay claims processing</p>
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <span className="text-2xl text-[#1B5E7F]">❌</span>
+              <span className="text-2xl text-[#1b6a52]">❌</span>
               <h3 className="font-medium text-gray-900 mt-3 mb-2">Unverified Data</h3>
               <p className="text-gray-700 text-sm">Unclear information requires constant follow-ups</p>
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <span className="text-2xl text-[#1B5E7F]">🔗</span>
+              <span className="text-2xl text-[#1b6a52]">🔗</span>
               <h3 className="font-medium text-gray-900 mt-3 mb-2">Fragmented Systems</h3>
               <p className="text-gray-700 text-sm">Disconnected communication across providers</p>
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <span className="text-2xl text-[#1B5E7F]">⏱️</span>
+              <span className="text-2xl text-[#1b6a52]">⏱️</span>
               <h3 className="font-medium text-gray-900 mt-3 mb-2">Extended Timelines</h3>
               <p className="text-gray-700 text-sm">Claims take weeks instead of days to settle</p>
             </div>
@@ -144,7 +144,7 @@ export default function Insurance() {
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               The Solution —
               <br />
-              <span className="text-[#1B5E7F]">"A Single, Verified Source of Truth"</span>
+              <span className="text-[#1b6a52]">"A Single, Verified Source of Truth"</span>
             </h2>
           </div>
 
@@ -152,23 +152,23 @@ export default function Insurance() {
             <p className="text-lg text-gray-700 font-light mb-6">DrSolv auto-organizes:</p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="flex gap-3">
-                <span className="text-[#1B5E7F] font-bold">✓</span>
+                <span className="text-[#1b6a52] font-bold">✓</span>
                 <span className="text-gray-700">Prescriptions</span>
               </div>
               <div className="flex gap-3">
-                <span className="text-[#1B5E7F] font-bold">✓</span>
+                <span className="text-[#1b6a52] font-bold">✓</span>
                 <span className="text-gray-700">Bills</span>
               </div>
               <div className="flex gap-3">
-                <span className="text-[#1B5E7F] font-bold">✓</span>
+                <span className="text-[#1b6a52] font-bold">✓</span>
                 <span className="text-gray-700">Reports</span>
               </div>
               <div className="flex gap-3">
-                <span className="text-[#1B5E7F] font-bold">✓</span>
+                <span className="text-[#1b6a52] font-bold">✓</span>
                 <span className="text-gray-700">Discharge Summaries</span>
               </div>
             </div>
-            <p className="text-lg text-[#1B5E7F] font-medium mt-6">"Every claim begins with complete data."</p>
+            <p className="text-lg text-[#1b6a52] font-medium mt-6">"Every claim begins with complete data."</p>
           </div>
 
           <div data-animate className="grid md:grid-cols-4 gap-6 pt-8">
@@ -208,27 +208,27 @@ export default function Insurance() {
 
           <div data-animate className="grid md:grid-cols-2 gap-8 pt-8">
             <div className="p-8 bg-white rounded-lg border border-gray-200">
-              <div className="text-4xl font-bold text-[#1B5E7F] mb-2">80%</div>
+              <div className="text-4xl font-bold text-[#1b6a52] mb-2">80%</div>
               <p className="text-gray-700">Fewer missing documents</p>
             </div>
 
             <div className="p-8 bg-white rounded-lg border border-gray-200">
-              <div className="text-4xl font-bold text-[#1B5E7F] mb-2">50%</div>
+              <div className="text-4xl font-bold text-[#1b6a52] mb-2">50%</div>
               <p className="text-gray-700">Faster processing time</p>
             </div>
 
             <div className="p-8 bg-white rounded-lg border border-gray-200">
-              <div className="text-4xl font-bold text-[#1B5E7F] mb-2">↓</div>
+              <div className="text-4xl font-bold text-[#1b6a52] mb-2">↓</div>
               <p className="text-gray-700">Fraud reduction</p>
             </div>
 
             <div className="p-8 bg-white rounded-lg border border-gray-200">
-              <div className="text-4xl font-bold text-[#1B5E7F] mb-2">✓</div>
+              <div className="text-4xl font-bold text-[#1b6a52] mb-2">✓</div>
               <p className="text-gray-700">Better compliance</p>
             </div>
           </div>
 
-          <div data-animate className="p-8 bg-white rounded-lg border border-[#1B5E7F]/20 text-center mt-8">
+          <div data-animate className="p-8 bg-white rounded-lg border border-[#1b6a52]/20 text-center mt-8">
             <p className="text-lg text-gray-900 font-light">
               <span className="font-medium">"We make insurance humane again."</span>
             </p>
@@ -243,7 +243,7 @@ export default function Insurance() {
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               Case Insight —
               <br />
-              <span className="text-[#1B5E7F]">"The 3-Day Claim"</span>
+              <span className="text-[#1b6a52]">"The 3-Day Claim"</span>
             </h2>
           </div>
 
@@ -264,21 +264,21 @@ export default function Insurance() {
                 </p>
                 <div className="space-y-3 mt-6">
                   <div className="flex gap-3">
-                    <span className="text-[#1B5E7F] font-bold">✓</span>
+                    <span className="text-[#1b6a52] font-bold">✓</span>
                     <span className="text-gray-700">Complete medical records verified instantly</span>
                   </div>
                   <div className="flex gap-3">
-                    <span className="text-[#1B5E7F] font-bold">✓</span>
+                    <span className="text-[#1b6a52] font-bold">✓</span>
                     <span className="text-gray-700">All bills and reports organized automatically</span>
                   </div>
                   <div className="flex gap-3">
-                    <span className="text-[#1B5E7F] font-bold">✓</span>
+                    <span className="text-[#1b6a52] font-bold">✓</span>
                     <span className="text-gray-700">Claim processed without delays</span>
                   </div>
                 </div>
               </div>
 
-              <div className="p-8 bg-white rounded-lg border border-[#1B5E7F]/20 text-center">
+              <div className="p-8 bg-white rounded-lg border border-[#1b6a52]/20 text-center">
                 <p className="text-lg text-gray-900 font-light">
                   <span className="font-medium">"The paperwork didn't outlast recovery."</span>
                 </p>
@@ -296,7 +296,7 @@ export default function Insurance() {
           </div>
 
           <div data-animate className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="#" className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition">
+            <Link href="#" className="px-8 py-3 bg-[#1b6a52] text-white font-medium rounded-lg transition">
               Partner with DrSolv
             </Link>
             <Link

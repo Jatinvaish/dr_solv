@@ -52,10 +52,10 @@ export default function DrSolvImpact() {
               <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
                 Building a
                 <br />
-                <span className="text-[#1B5E7F]">healthier tomorrow.</span>
+                <span className="text-[#1b6a52]">healthier tomorrow.</span>
               </h2>
               <p className="text-lg text-gray-700 font-medium">
-                DrSolv is transforming how healthcare systems think about data, access, and care delivery worldwide.
+                Unidoc is transforming how healthcare systems think about data, access, and care delivery worldwide.
               </p>
             </div>
 
@@ -63,7 +63,7 @@ export default function DrSolvImpact() {
             <div className="grid grid-cols-2 gap-4">
               {stats.map((stat, index) => (
                 <div key={index} data-stat-card className="p-4 bg-white rounded-lg border border-gray-200">
-                  <p className="text-3xl font-light text-[#1B5E7F]">{stat.number}</p>
+                  <p className="text-3xl font-light text-[#1b6a52]">{stat.number}</p>
                   <p className="text-sm text-gray-700 mt-2 font-medium">{stat.label}</p>
                 </div>
               ))}

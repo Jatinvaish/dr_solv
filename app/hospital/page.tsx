@@ -47,7 +47,7 @@ export default function Hospital() {
                 <h1 className="text-5xl md:text-6xl font-light text-gray-900 leading-tight">
                   When minutes matter,
                   <br />
-                  <span className="text-[#1B5E7F]">data should arrive first</span>
+                  <span className="text-[#1b6a52]">data should arrive first</span>
                 </h1>
               </div>
 
@@ -68,7 +68,7 @@ export default function Hospital() {
               <div data-animate className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link
                   href="/hospital"
-                  className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition text-center"
+                  className="px-8 py-3 bg-[#1b6a52] text-white font-medium rounded-lg transition text-center"
                 >
                   Schedule a Demo
                 </Link>
@@ -101,35 +101,35 @@ export default function Hospital() {
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               The Challenge —
               <br />
-              <span className="text-[#1B5E7F]">"Unknown Patients. Unavailable Data."</span>
+              <span className="text-[#1b6a52]">"Unknown Patients. Unavailable Data."</span>
             </h2>
           </div>
 
           <div data-animate className="grid md:grid-cols-2 gap-8 pt-8">
-            <div className="p-8 bg-white rounded-lg border border-[#1B5E7F]/20">
+            <div className="p-8 bg-white rounded-lg border border-[#1b6a52]/20">
               <p className="text-lg font-medium text-gray-900 mb-3">The Problem</p>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex gap-3">
-                  <span className="text-[#1B5E7F]">•</span>
+                  <span className="text-[#1b6a52]">•</span>
                   <span>Hospitals often receive unconscious or unidentified patients</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#1B5E7F]">•</span>
+                  <span className="text-[#1b6a52]">•</span>
                   <span>No history. No files. No clarity.</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#1B5E7F]">•</span>
+                  <span className="text-[#1b6a52]">•</span>
                   <span>Treatment begins with guesswork</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-[#1B5E7F]">•</span>
+                  <span className="text-[#1b6a52]">•</span>
                   <span>Critical delays in life-saving decisions</span>
                 </li>
               </ul>
             </div>
 
             <div className="p-8 bg-white rounded-lg border border-red-200">
-              <p className="text-lg font-medium text-gray-900 mb-3 text-[#1B5E7F]">
+              <p className="text-lg font-medium text-gray-900 mb-3 text-[#1b6a52]">
                 "We built DrSolv so hospitals never treat a stranger again."
               </p>
               <p className="text-gray-700">
@@ -148,36 +148,36 @@ export default function Hospital() {
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               The Solution —
               <br />
-              <span className="text-[#1B5E7F]">"Emergency Data That Travels Faster Than Ambulances"</span>
+              <span className="text-[#1b6a52]">"Emergency Data That Travels Faster Than Ambulances"</span>
             </h2>
           </div>
 
-          <div data-animate className="p-8 bg-gray-50 rounded-lg border border-[#1B5E7F]/20">
+          <div data-animate className="p-8 bg-gray-50 rounded-lg border border-[#1b6a52]/20">
             <p className="text-lg text-gray-700 font-light mb-6">A single QR scan reveals:</p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] font-bold mt-1">✓</span>
+                <span className="text-[#1b6a52] font-bold mt-1">✓</span>
                 <div>
                   <p className="font-medium text-gray-900">Allergies & Chronic Conditions</p>
                   <p className="text-sm text-gray-600">Complete medical history at a glance</p>
                 </div>
               </div>
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] font-bold mt-1">✓</span>
+                <span className="text-[#1b6a52] font-bold mt-1">✓</span>
                 <div>
                   <p className="font-medium text-gray-900">Blood Group & Medications</p>
                   <p className="text-sm text-gray-600">Critical treatment information</p>
                 </div>
               </div>
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] font-bold mt-1">✓</span>
+                <span className="text-[#1b6a52] font-bold mt-1">✓</span>
                 <div>
                   <p className="font-medium text-gray-900">Prior Procedures</p>
                   <p className="text-sm text-gray-600">Complete surgical and treatment history</p>
                 </div>
               </div>
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] font-bold mt-1">✓</span>
+                <span className="text-[#1b6a52] font-bold mt-1">✓</span>
                 <div>
                   <p className="font-medium text-gray-900">Emergency Contacts & Insurance</p>
                   <p className="text-sm text-gray-600">Everything needed for immediate action</p>
@@ -186,7 +186,7 @@ export default function Hospital() {
             </div>
           </div>
 
-          <div data-animate className="p-8 bg-white rounded-lg border border-[#1B5E7F]/20 text-center">
+          <div data-animate className="p-8 bg-white rounded-lg border border-[#1b6a52]/20 text-center">
             <p className="text-lg text-gray-900 font-light">
               <span className="font-medium">"From triage to treatment — zero delay, full context."</span>
             </p>
@@ -201,13 +201,13 @@ export default function Hospital() {
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               Hospital Dashboard —
               <br />
-              <span className="text-[#1B5E7F]">"Your Digital Emergency Assistant"</span>
+              <span className="text-[#1b6a52]">"Your Digital Emergency Assistant"</span>
             </h2>
           </div>
 
           <div data-animate className="grid md:grid-cols-2 gap-8 pt-8">
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <div className="w-12 h-12 bg-[#1B5E7F] rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#1b6a52] rounded-lg flex items-center justify-center mb-4">
                 <span className="text-white font-bold">⚡</span>
               </div>
               <h3 className="text-xl font-medium text-gray-900 mb-2">Instant Patient Profiles</h3>
@@ -215,7 +215,7 @@ export default function Hospital() {
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <div className="w-12 h-12 bg-[#1B5E7F] rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#1b6a52] rounded-lg flex items-center justify-center mb-4">
                 <span className="text-white font-bold">🤖</span>
               </div>
               <h3 className="text-xl font-medium text-gray-900 mb-2">AI Summaries from Records</h3>
@@ -223,7 +223,7 @@ export default function Hospital() {
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <div className="w-12 h-12 bg-[#1B5E7F] rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#1b6a52] rounded-lg flex items-center justify-center mb-4">
                 <span className="text-white font-bold">🔐</span>
               </div>
               <h3 className="text-xl font-medium text-gray-900 mb-2">Consent-Based Access</h3>
@@ -231,7 +231,7 @@ export default function Hospital() {
             </div>
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
-              <div className="w-12 h-12 bg-[#1B5E7F] rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#1b6a52] rounded-lg flex items-center justify-center mb-4">
                 <span className="text-white font-bold">🏥</span>
               </div>
               <h3 className="text-xl font-medium text-gray-900 mb-2">Seamless EHR Compatibility</h3>
@@ -248,7 +248,7 @@ export default function Hospital() {
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               Use Case —
               <br />
-              <span className="text-[#1B5E7F]">"When DrSolv Met the ER"</span>
+              <span className="text-[#1b6a52]">"When DrSolv Met the ER"</span>
             </h2>
           </div>
 
@@ -269,22 +269,22 @@ export default function Hospital() {
                 </p>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex gap-3">
-                    <span className="text-[#1B5E7F] font-bold">✓</span>
+                    <span className="text-[#1b6a52] font-bold">✓</span>
                     <span>Diabetes</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="text-[#1B5E7F] font-bold">✓</span>
+                    <span className="text-[#1b6a52] font-bold">✓</span>
                     <span>Hypertension</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="text-[#1B5E7F] font-bold">✓</span>
+                    <span className="text-[#1b6a52] font-bold">✓</span>
                     <span>Penicillin allergy</span>
                   </li>
                 </ul>
-                <p className="text-lg font-medium text-[#1B5E7F] mt-4">Result: Saved his life</p>
+                <p className="text-lg font-medium text-[#1b6a52] mt-4">Result: Saved his life</p>
               </div>
 
-              <div className="p-8 bg-white rounded-lg border border-[#1B5E7F]/20 text-center">
+              <div className="p-8 bg-white rounded-lg border border-[#1b6a52]/20 text-center">
                 <p className="text-lg text-gray-900 font-light">
                   <span className="font-medium">"Data didn't just inform care. It defined it."</span>
                 </p>
@@ -304,7 +304,7 @@ export default function Hospital() {
           <div data-animate className="grid md:grid-cols-2 gap-6 pt-8">
             <div className="p-6 bg-white rounded-lg border border-gray-200">
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] text-2xl mt-1">⚕️</span>
+                <span className="text-[#1b6a52] text-2xl mt-1">⚕️</span>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-2">Reduce Critical Errors</h3>
                   <p className="text-gray-700 text-sm">Accurate patient information prevents medical errors</p>
@@ -314,7 +314,7 @@ export default function Hospital() {
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] text-2xl mt-1">🔗</span>
+                <span className="text-[#1b6a52] text-2xl mt-1">🔗</span>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-2">Improve Emergency Coordination</h3>
                   <p className="text-gray-700 text-sm">Connected care ecosystem reduces response time</p>
@@ -324,7 +324,7 @@ export default function Hospital() {
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] text-2xl mt-1">📊</span>
+                <span className="text-[#1b6a52] text-2xl mt-1">📊</span>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-2">Enhance Operational Efficiency</h3>
                   <p className="text-gray-700 text-sm">Streamlined workflows and faster patient processing</p>
@@ -334,7 +334,7 @@ export default function Hospital() {
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] text-2xl mt-1">✅</span>
+                <span className="text-[#1b6a52] text-2xl mt-1">✅</span>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-2">Build Patient Trust</h3>
                   <p className="text-gray-700 text-sm">Transparent data handling increases patient confidence</p>
@@ -355,7 +355,7 @@ export default function Hospital() {
           </div>
 
           <div data-animate className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="#" className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition">
+            <Link href="#" className="px-8 py-3 bg-[#1b6a52] text-white font-medium rounded-lg transition">
               Schedule a Demo
             </Link>
             <Link

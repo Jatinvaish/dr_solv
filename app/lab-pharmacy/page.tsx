@@ -46,7 +46,7 @@ export default function LabPharmacy() {
                 <h1 className="text-5xl md:text-6xl font-light text-gray-900 leading-tight">
                   Connecting diagnostics and medicine
                   <br />
-                  <span className="text-[#1B5E7F]">to the future of care</span>
+                  <span className="text-[#1b6a52]">to the future of care</span>
                 </h1>
               </div>
 
@@ -66,7 +66,7 @@ export default function LabPharmacy() {
               <div data-animate className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link
                   href="#"
-                  className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition text-center"
+                  className="px-8 py-3 bg-[#1b6a52] text-white font-medium rounded-lg transition text-center"
                 >
                   Join Partner Network
                 </Link>
@@ -98,7 +98,7 @@ export default function LabPharmacy() {
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               The Problem —
               <br />
-              <span className="text-[#1B5E7F]">"Disconnected, Delayed, Disjointed"</span>
+              <span className="text-[#1b6a52]">"Disconnected, Delayed, Disjointed"</span>
             </h2>
           </div>
 
@@ -107,7 +107,7 @@ export default function LabPharmacy() {
               Patients search for labs, then pharmacies, then delivery options — each unlinked. Labs and pharmacies work
               in isolated systems.
             </p>
-            <p className="text-lg text-[#1B5E7F] font-medium">
+            <p className="text-lg text-[#1b6a52] font-medium">
               "Healthcare shouldn't end with a prescription. It should begin with action."
             </p>
           </div>
@@ -121,7 +121,7 @@ export default function LabPharmacy() {
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               The Solution —
               <br />
-              <span className="text-[#1B5E7F]">"One Network. Infinite Connection"</span>
+              <span className="text-[#1b6a52]">"One Network. Infinite Connection"</span>
             </h2>
           </div>
 
@@ -129,27 +129,27 @@ export default function LabPharmacy() {
             <p className="text-lg text-gray-700 font-light mb-6">DrSolv syncs:</p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="flex gap-3">
-                <span className="text-[#1B5E7F] font-bold">✓</span>
+                <span className="text-[#1b6a52] font-bold">✓</span>
                 <span className="text-gray-700">Lab test bookings</span>
               </div>
               <div className="flex gap-3">
-                <span className="text-[#1B5E7F] font-bold">✓</span>
+                <span className="text-[#1b6a52] font-bold">✓</span>
                 <span className="text-gray-700">Verified prescriptions</span>
               </div>
               <div className="flex gap-3">
-                <span className="text-[#1B5E7F] font-bold">✓</span>
+                <span className="text-[#1b6a52] font-bold">✓</span>
                 <span className="text-gray-700">Stock availability</span>
               </div>
               <div className="flex gap-3">
-                <span className="text-[#1B5E7F] font-bold">✓</span>
+                <span className="text-[#1b6a52] font-bold">✓</span>
                 <span className="text-gray-700">Result sharing</span>
               </div>
               <div className="flex gap-3">
-                <span className="text-[#1B5E7F] font-bold">✓</span>
+                <span className="text-[#1b6a52] font-bold">✓</span>
                 <span className="text-gray-700">Delivery partners</span>
               </div>
             </div>
-            <p className="text-lg text-[#1B5E7F] font-medium mt-6">
+            <p className="text-lg text-[#1b6a52] font-medium mt-6">
               "From diagnosis to delivery — one uninterrupted line of care."
             </p>
           </div>
@@ -189,7 +189,7 @@ export default function LabPharmacy() {
             </div>
           </div>
 
-          <div data-animate className="p-8 bg-white rounded-lg border border-[#1B5E7F]/20 text-center mt-8">
+          <div data-animate className="p-8 bg-white rounded-lg border border-[#1b6a52]/20 text-center mt-8">
             <p className="text-lg text-gray-900 font-light">
               <span className="font-medium">"Every test result is a step closer to timely treatment."</span>
             </p>
@@ -230,7 +230,7 @@ export default function LabPharmacy() {
             </div>
           </div>
 
-          <div data-animate className="p-8 bg-white rounded-lg border border-[#1B5E7F]/20 text-center mt-8">
+          <div data-animate className="p-8 bg-white rounded-lg border border-[#1b6a52]/20 text-center mt-8">
             <p className="text-lg text-gray-900 font-light">
               <span className="font-medium">"When medication arrives faster, recovery begins sooner."</span>
             </p>
@@ -271,7 +271,7 @@ export default function LabPharmacy() {
             </div>
           </div>
 
-          <div data-animate className="p-8 bg-white rounded-lg border border-[#1B5E7F]/20 text-center mt-8">
+          <div data-animate className="p-8 bg-white rounded-lg border border-[#1b6a52]/20 text-center mt-8">
             <p className="text-lg text-gray-900 font-light">
               <span className="font-medium">"Integration isn't an upgrade — it's survival."</span>
             </p>
@@ -286,7 +286,7 @@ export default function LabPharmacy() {
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               Case Story —
               <br />
-              <span className="text-[#1B5E7F]">"A Connected Morning"</span>
+              <span className="text-[#1b6a52]">"A Connected Morning"</span>
             </h2>
           </div>
 
@@ -307,25 +307,25 @@ export default function LabPharmacy() {
                 </p>
                 <div className="space-y-3 mt-6">
                   <div className="flex gap-3">
-                    <span className="text-[#1B5E7F] font-bold">✓</span>
+                    <span className="text-[#1b6a52] font-bold">✓</span>
                     <span className="text-gray-700">Patient books lab test</span>
                   </div>
                   <div className="flex gap-3">
-                    <span className="text-[#1B5E7F] font-bold">✓</span>
+                    <span className="text-[#1b6a52] font-bold">✓</span>
                     <span className="text-gray-700">Results instantly shared with doctor</span>
                   </div>
                   <div className="flex gap-3">
-                    <span className="text-[#1B5E7F] font-bold">✓</span>
+                    <span className="text-[#1b6a52] font-bold">✓</span>
                     <span className="text-gray-700">Doctor adjusts prescription if needed</span>
                   </div>
                   <div className="flex gap-3">
-                    <span className="text-[#1B5E7F] font-bold">✓</span>
+                    <span className="text-[#1b6a52] font-bold">✓</span>
                     <span className="text-gray-700">Pharmacy receives prescription and delivers medicine</span>
                   </div>
                 </div>
               </div>
 
-              <div className="p-8 bg-white rounded-lg border border-[#1B5E7F]/20 text-center">
+              <div className="p-8 bg-white rounded-lg border border-[#1b6a52]/20 text-center">
                 <p className="text-lg text-gray-900 font-light">
                   <span className="font-medium">"One day, one system, one care story."</span>
                 </p>
@@ -343,7 +343,7 @@ export default function LabPharmacy() {
           </div>
 
           <div data-animate className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="#" className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition">
+            <Link href="#" className="px-8 py-3 bg-[#1b6a52] text-white font-medium rounded-lg transition">
               Join Partner Network
             </Link>
             <Link

@@ -99,7 +99,7 @@ export default function DrSolvEcosystem() {
                 <h3 className="text-lg font-medium text-gray-900">{feature.title}</h3>
                 <p className="text-sm text-gray-700 font-medium">{feature.description}</p>
                 {feature.details && <p className="text-sm text-gray-700 font-medium">{feature.details}</p>}
-                <p className="text-sm italic text-[#1B5E7F] pt-4 border-t border-gray-200">{feature.quote}</p>
+                <p className="text-sm italic text-[#1b6a52] pt-4 border-t border-gray-200">{feature.quote}</p>
               </div>
             </div>
           ))}

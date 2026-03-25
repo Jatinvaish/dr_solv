@@ -46,7 +46,7 @@ export default function Individuals() {
                 <h1 className="text-5xl md:text-6xl font-light text-gray-900 leading-tight">
                   Your health data,
                   <br />
-                  <span className="text-[#1B5E7F]">always at hand</span>
+                  <span className="text-[#1b6a52]">always at hand</span>
                 </h1>
               </div>
 
@@ -67,7 +67,7 @@ export default function Individuals() {
               <div data-animate className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link
                   href="#"
-                  className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition text-center"
+                  className="px-8 py-3 bg-[#1b6a52] text-white font-medium rounded-lg transition text-center"
                 >
                   Get Your Wristband
                 </Link>
@@ -101,7 +101,7 @@ export default function Individuals() {
 
           <div data-animate className="grid md:grid-cols-3 gap-8 pt-8">
             <div className="p-8 bg-white rounded-lg border border-gray-200 text-center">
-              <div className="w-16 h-16 bg-[#1B5E7F] text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1b6a52] text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
               <h3 className="font-medium text-gray-900 mb-2 text-lg">Create Your Profile</h3>
@@ -111,7 +111,7 @@ export default function Individuals() {
             </div>
 
             <div className="p-8 bg-white rounded-lg border border-gray-200 text-center">
-              <div className="w-16 h-16 bg-[#1B5E7F] text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1b6a52] text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
               <h3 className="font-medium text-gray-900 mb-2 text-lg">Wear Your Wristband</h3>
@@ -119,7 +119,7 @@ export default function Individuals() {
             </div>
 
             <div className="p-8 bg-white rounded-lg border border-gray-200 text-center">
-              <div className="w-16 h-16 bg-[#1B5E7F] text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1b6a52] text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
               <h3 className="font-medium text-gray-900 mb-2 text-lg">Be Protected</h3>
@@ -140,7 +140,7 @@ export default function Individuals() {
             <div className="space-y-6">
               <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
                 <div className="flex gap-4 items-start">
-                  <span className="text-[#1B5E7F] text-2xl">💊</span>
+                  <span className="text-[#1b6a52] text-2xl">💊</span>
                   <div>
                     <h3 className="font-medium text-gray-900 mb-1">Medications & Allergies</h3>
                     <p className="text-gray-700 text-sm">Current medications, dosages, and all allergies</p>
@@ -150,7 +150,7 @@ export default function Individuals() {
 
               <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
                 <div className="flex gap-4 items-start">
-                  <span className="text-[#1B5E7F] text-2xl">🩸</span>
+                  <span className="text-[#1b6a52] text-2xl">🩸</span>
                   <div>
                     <h3 className="font-medium text-gray-900 mb-1">Blood Type & Conditions</h3>
                     <p className="text-gray-700 text-sm">
@@ -162,7 +162,7 @@ export default function Individuals() {
 
               <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
                 <div className="flex gap-4 items-start">
-                  <span className="text-[#1B5E7F] text-2xl">📋</span>
+                  <span className="text-[#1b6a52] text-2xl">📋</span>
                   <div>
                     <h3 className="font-medium text-gray-900 mb-1">Medical History</h3>
                     <p className="text-gray-700 text-sm">Past surgeries, procedures, and relevant medical history</p>
@@ -174,7 +174,7 @@ export default function Individuals() {
             <div className="space-y-6">
               <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
                 <div className="flex gap-4 items-start">
-                  <span className="text-[#1B5E7F] text-2xl">👥</span>
+                  <span className="text-[#1b6a52] text-2xl">👥</span>
                   <div>
                     <h3 className="font-medium text-gray-900 mb-1">Emergency Contacts</h3>
                     <p className="text-gray-700 text-sm">Family members and emergency contacts</p>
@@ -184,7 +184,7 @@ export default function Individuals() {
 
               <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
                 <div className="flex gap-4 items-start">
-                  <span className="text-[#1B5E7F] text-2xl">🏥</span>
+                  <span className="text-[#1b6a52] text-2xl">🏥</span>
                   <div>
                     <h3 className="font-medium text-gray-900 mb-1">Insurance Information</h3>
                     <p className="text-gray-700 text-sm">Insurance details for seamless billing</p>
@@ -194,7 +194,7 @@ export default function Individuals() {
 
               <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
                 <div className="flex gap-4 items-start">
-                  <span className="text-[#1B5E7F] text-2xl">🔐</span>
+                  <span className="text-[#1b6a52] text-2xl">🔐</span>
                   <div>
                     <h3 className="font-medium text-gray-900 mb-1">Full Privacy Control</h3>
                     <p className="text-gray-700 text-sm">You control who sees your information, always</p>
@@ -216,7 +216,7 @@ export default function Individuals() {
           <div data-animate className="grid md:grid-cols-2 gap-6 pt-8">
             <div className="p-6 bg-white rounded-lg border border-gray-200">
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] text-2xl">⚡</span>
+                <span className="text-[#1b6a52] text-2xl">⚡</span>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-2">Peace of Mind</h3>
                   <p className="text-gray-700 text-sm">
@@ -228,7 +228,7 @@ export default function Individuals() {
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] text-2xl">🔒</span>
+                <span className="text-[#1b6a52] text-2xl">🔒</span>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-2">Complete Privacy</h3>
                   <p className="text-gray-700 text-sm">Hospital-grade encryption, no third-party data sharing</p>
@@ -238,7 +238,7 @@ export default function Individuals() {
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] text-2xl">💬</span>
+                <span className="text-[#1b6a52] text-2xl">💬</span>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-2">Better Care Coordination</h3>
                   <p className="text-gray-700 text-sm">
@@ -250,7 +250,7 @@ export default function Individuals() {
 
             <div className="p-6 bg-white rounded-lg border border-gray-200">
               <div className="flex gap-3 items-start">
-                <span className="text-[#1B5E7F] text-2xl">✅</span>
+                <span className="text-[#1b6a52] text-2xl">✅</span>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-2">Emergency Ready</h3>
                   <p className="text-gray-700 text-sm">Critical information available immediately during emergencies</p>
@@ -269,7 +269,7 @@ export default function Individuals() {
           </div>
 
           <div data-animate className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="#" className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition">
+            <Link href="#" className="px-8 py-3 bg-[#1b6a52] text-white font-medium rounded-lg transition">
               Get Your Wristband
             </Link>
             <Link

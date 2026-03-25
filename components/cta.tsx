@@ -25,7 +25,7 @@ export default function CTA() {
               You can, too.
             </p>
 
-            <button className="bg-[#1B5E7F] hover:bg-[#164557] text-white px-6 py-3 rounded-full font-medium transition flex items-center gap-2 w-fit">
+            <button className="bg-[#1b6a52] hover:bg-[#15544a] text-white px-6 py-3 rounded-full font-medium transition flex items-center gap-2 w-fit">
               <span className="w-2 h-2 bg-white rounded-full"></span>
               Book A Session
             </button>
