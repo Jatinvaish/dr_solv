@@ -9,7 +9,7 @@ export default function DrSolvProblem() {
           <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
             Data exists.
             <br />
-            <span className="text-[#1B5E7F]">Access doesn't.</span>
+            <span className="text-[#1b6a52]">Access doesn't.</span>
           </h2>
           <p className="text-lg text-gray-700 font-medium mt-4">
             The gap between information and insight costs lives every day.
@@ -54,10 +54,10 @@ export default function DrSolvProblem() {
         </div>
 
         {/* Solution */}
-        <div data-animate className="p-8 bg-white rounded-lg border border-[#1B5E7F]/20 text-center">
+        <div data-animate className="p-8 bg-white rounded-lg border border-[#1b6a52]/20 text-center">
           <p className="text-lg text-gray-900 font-medium">
             We live in a world filled with health data, yet disconnected from care.{" "}
-            <span className="font-semibold">DrSolv reconnects those dots</span> — instantly, intelligently,
+            <span className="font-semibold">Unidoc reconnects those dots</span> — instantly, intelligently,
             compassionately.
           </p>
         </div>

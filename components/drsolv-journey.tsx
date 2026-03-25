@@ -14,7 +14,7 @@ export default function DrSolvJourney() {
           <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
             From data to decision —
             <br />
-            <span className="text-[#1B5E7F]">in a heartbeat.</span>
+            <span className="text-[#1b6a52]">in a heartbeat.</span>
           </h2>
         </div>
 
@@ -23,7 +23,7 @@ export default function DrSolvJourney() {
           {steps.map((step, index) => (
             <div key={index} data-animate className="text-center">
               <div className="flex items-center justify-center mb-4">
-                <div className="w-12 h-12 bg-[#1B5E7F] text-white rounded-full flex items-center justify-center font-medium">
+                <div className="w-12 h-12 bg-[#1b6a52] text-white rounded-full flex items-center justify-center font-medium">
                   {index + 1}
                 </div>
               </div>

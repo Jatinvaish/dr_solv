@@ -47,7 +47,7 @@ export default function DrSolvHero() {
               <h1 className="text-5xl md:text-6xl font-semibold text-gray-900 leading-tight">
                 Every second matters.
                 <br />
-                <span className="text-[#1B5E7F]">Every life deserves care</span> that responds.
+                <span className="text-[#1b6a52]">Every life deserves care</span> that responds.
               </h1>
             </div>
 
@@ -73,7 +73,7 @@ export default function DrSolvHero() {
             <div data-hero-cta className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link
                 href="/lab-pharmacy"
-                className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition text-center"
+                className="px-8 py-3 bg-[#1b6a52] hover:bg-[#15544a] text-white font-medium rounded-lg transition text-center"
               >
                 Explore Lab & Pharmacy
               </Link>

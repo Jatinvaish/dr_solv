@@ -40,7 +40,7 @@ export default function DrSolvFeatures() {
           <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
             Everything you need for
             <br />
-            <span className="text-[#1B5E7F]">complete healthcare control.</span>
+            <span className="text-[#1b6a52]">complete healthcare control.</span>
           </h2>
           <p className="text-lg text-gray-700 font-medium max-w-2xl mx-auto">
             A unified platform that brings together all aspects of your health journey.
@@ -53,7 +53,7 @@ export default function DrSolvFeatures() {
             <div
               key={index}
               data-animate
-              className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[#1B5E7F]/30 transition space-y-4"
+              className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[#1b6a52]/30 transition space-y-4"
             >
               <div className="text-4xl">{feature.icon}</div>
               <h3 className="text-lg font-semibold text-gray-900">{feature.title}</h3>

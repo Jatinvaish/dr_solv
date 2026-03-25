@@ -9,7 +9,7 @@ export default function DrSolvVision() {
               <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
                 Why we built
                 <br />
-                <span className="text-[#1B5E7F]">DrSolv.</span>
+                <span className="text-[#1b6a52]">Unidoc.</span>
               </h2>
               <p className="text-lg md:text-xl text-gray-700 font-medium">
                 Healthcare today is a race against time. Every moment spent searching for data is a moment lost for
@@ -19,7 +19,7 @@ export default function DrSolvVision() {
 
             <div className="space-y-4">
               <div className="flex gap-4">
-                <div className="w-1 bg-[#1B5E7F] rounded-full"></div>
+                <div className="w-1 bg-[#1b6a52] rounded-full"></div>
                 <div>
                   <p className="text-base font-semibold text-gray-900">Real Emergency Stories</p>
                   <p className="text-sm text-gray-700 mt-1 font-medium">
@@ -29,7 +29,7 @@ export default function DrSolvVision() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="w-1 bg-[#1B5E7F] rounded-full"></div>
+                <div className="w-1 bg-[#1b6a52] rounded-full"></div>
                 <div>
                   <p className="text-base font-semibold text-gray-900">A Technology that Listens</p>
                   <p className="text-sm text-gray-700 mt-1 font-medium">
@@ -39,7 +39,7 @@ export default function DrSolvVision() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="w-1 bg-[#1B5E7F] rounded-full"></div>
+                <div className="w-1 bg-[#1b6a52] rounded-full"></div>
                 <div>
                   <p className="text-base font-semibold text-gray-900">Care That Responds</p>
                   <p className="text-sm text-gray-700 mt-1 font-medium">
@@ -53,11 +53,11 @@ export default function DrSolvVision() {
 
           {/* Right Visual */}
           <div
-            className="bg-gradient-to-br from-[#1B5E7F]/10 to-[#1B5E7F]/5 rounded-lg p-8 flex items-center justify-center"
+            className="bg-gradient-to-br from-[#1b6a52]/10 to-[#1b6a52]/5 rounded-lg p-8 flex items-center justify-center"
             data-animate
           >
             <div className="text-center space-y-4">
-              <div className="text-6xl font-bold text-[#1B5E7F]/20">∞</div>
+              <div className="text-6xl font-bold text-[#1b6a52]/20">∞</div>
               <p className="text-gray-700 font-medium">Infinite care possibilities</p>
               <p className="text-sm text-gray-600 font-medium">Powered by timely, accessible, intelligent healthcare</p>
             </div>

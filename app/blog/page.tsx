@@ -23,8 +23,8 @@ const blogPosts = [
   },
   {
     id: 2,
-    title: "HIPAA Compliance Made Easy: The {siteConfig.name} Approach",
-    excerpt: "Learn how {siteConfig.name} ensures your patient data is secure while maintaining full HIPAA compliance and regulatory requirements.",
+    title: "HIPAA Compliance Made Easy: The Unidoc Approach",
+    excerpt: "Learn how Unidoc ensures your patient data is secure while maintaining full HIPAA compliance and regulatory requirements.",
     category: "Compliance",
     date: "March 15, 2026",
     readTime: "6 min read",

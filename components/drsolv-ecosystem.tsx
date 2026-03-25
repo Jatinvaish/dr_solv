@@ -81,10 +81,10 @@ export default function DrSolvEcosystem() {
           <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
             One network.
             <br />
-            <span className="text-[#1B5E7F]">A thousand better outcomes.</span>
+            <span className="text-[#1b6a52]">A thousand better outcomes.</span>
           </h2>
           <p className="text-lg text-gray-700 font-medium max-w-2xl">
-            DrSolv isn't just a product — it's a living healthcare infrastructure that listens, learns, and responds.
+            Unidoc isn't just a product — it's a living healthcare infrastructure that listens, learns, and responds.
           </p>
         </div>
 

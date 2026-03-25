@@ -10,7 +10,7 @@ export default function DrSolvPartners() {
         {/* Description */}
         <div data-animate className="space-y-4">
           <p className="text-lg text-gray-700 leading-relaxed font-medium">
-            Healthcare isn't broken — just fragmented. DrSolv rebuilds the missing connections between emergency
+            Healthcare isn't broken — just fragmented. Unidoc rebuilds the missing connections between emergency
             responders, hospitals, labs, pharmacies, insurers, and individuals.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed font-medium">
@@ -20,7 +20,7 @@ export default function DrSolvPartners() {
 
         {/* CTAs */}
         <div data-animate className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-          <button className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition">
+          <button className="px-8 py-3 bg-[#1b6a52] hover:bg-[#15544a] text-white font-medium rounded-lg transition">
             Partner With Us
           </button>
           <button className="px-8 py-3 bg-white text-gray-900 font-medium rounded-lg border border-gray-200 transition">

@@ -64,7 +64,7 @@ export default function DrSolvTestimonials() {
           <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
             Trusted by
             <br />
-            <span className="text-[#1B5E7F]">doctors, patients & institutions.</span>
+            <span className="text-[#1b6a52]">doctors, patients & institutions.</span>
           </h2>
           <p className="text-lg text-gray-700 font-medium mt-4">
             Real voices. Real impact. Real transformation in healthcare.

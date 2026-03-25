@@ -26,7 +26,7 @@ export default function DrSolvStories() {
         {/* Header */}
         <div data-animate className="space-y-3 mb-12 text-center">
           <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
-            <span className="text-[#1B5E7F]">Real moments.</span> Real people.
+            <span className="text-[#1b6a52]">Real moments.</span> Real people.
             <br />
             Real care.
           </h2>
@@ -38,7 +38,7 @@ export default function DrSolvStories() {
             <div key={index} data-animate className="p-6 border border-gray-200 rounded-lg space-y-4">
               <h3 className="text-lg font-medium text-gray-900">{story.title}</h3>
               <p className="text-sm text-gray-700 leading-relaxed font-medium">{story.description}</p>
-              <p className="text-sm italic text-[#1B5E7F] pt-2 border-t border-gray-200 font-medium">"{story.quote}"</p>
+              <p className="text-sm italic text-[#1b6a52] pt-2 border-t border-gray-200 font-medium">"{story.quote}"</p>
             </div>
           ))}
         </div>
