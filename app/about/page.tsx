@@ -6,26 +6,9 @@ import ScrollTrigger from "gsap/ScrollTrigger"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import Link from "next/link"
-import Image from "next/image"
+import { siteConfig } from "@/lib/content"
 
 gsap.registerPlugin(ScrollTrigger)
-
-const teamMembers = [
-  {
-    id: 1,
-    name: "Founder & CEO",
-    description: "Healthcare innovator with 15+ years in emergency medicine and digital health solutions.",
-    role: "Visionary leader driving the healthcare transformation",
-    image: "/female_doc.jpeg"
-  },
-  {
-    id: 2,
-    name: "CTO",
-    description: "Full-stack technologist with expertise in healthcare systems, security, and scalable platforms.",
-    role: "Building the technical backbone of DrSolv",
-    image: "/male_doc.jpeg"
-  }
-]
 
 export default function About() {
   useEffect(() => {
@@ -55,261 +38,184 @@ export default function About() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              <div data-animate className="space-y-4">
-                <h1 className="text-5xl md:text-6xl font-light text-gray-900 leading-tight">
-                  Solving care.
-                  <br />
-                  <span className="text-[#1B5E7F]">Saving lives.</span>
-                </h1>
-              </div>
-
-              <div data-animate className="space-y-2">
-                <p className="text-lg md:text-xl text-gray-600 font-light">
-                  The mission behind DrSolv: Connect every stakeholder in healthcare to make emergency response instant,
-                  not slow.
-                </p>
-              </div>
-
-              <div data-animate className="space-y-4 pt-4">
-                <p className="text-base md:text-lg text-gray-700 leading-relaxed font-light">
-                  In India, healthcare systems are fragmented. Patients have no quick access to their data. Hospitals
-                  treat strangers without history. Doctors don't know allergies. Insurers drown in paperwork. Labs and
-                  pharmacies work in isolation.
-                </p>
-              </div>
-            </div>
-
-            <div data-animate className="relative h-96 md:h-full">
-              <Image
-                src="/hero-healthcare-emergency.jpg"
-                alt="DrSolv Mission"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-slate-50">
+        <div className="max-w-6xl mx-auto text-center space-y-6">
+          <div data-animate>
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900">
+              About <span className="text-[#1b6a52]">{siteConfig.name}</span>
+            </h1>
+          </div>
+          <div data-animate>
+            <p className="text-xl text-gray-700 font-medium max-w-2xl mx-auto">
+              Transforming healthcare through intelligent patient records management and AI-powered insights
+            </p>
           </div>
         </div>
       </section>
 
       {/* Story */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-6xl mx-auto space-y-8">
-          <div data-animate className="text-center space-y-3">
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900">Our Story</h2>
-          </div>
-
-          <div data-animate className="p-8 bg-white rounded-lg border border-gray-200">
-            <p className="text-lg text-gray-700 leading-relaxed font-light mb-6">
-              DrSolv was born from a simple observation: In emergencies, seconds decide everything. A patient's
-              allergies. Their blood type. Prior surgeries. Insurance details. Everything that matters is scattered
-              across systems, files, and memories.
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto space-y-8">
+          <div data-animate className="space-y-6">
+            <h2 className="text-4xl font-bold text-gray-900">Our Story</h2>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              {siteConfig.name} was founded with a simple observation: Healthcare professionals are drowning in administrative work while patients struggle to access their own medical records. In modern healthcare systems, critical patient information is fragmented across multiple systems, creating inefficiencies that compromise care quality.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed font-light mb-6">
-              We realized that the problem wasn't medical knowledge — it was access. What if every patient carried their
-              complete medical history on a wristband QR code? What if hospitals could scan and instantly know
-              everything? What if insurance claims had verified data from day one?
+            <p className="text-lg text-gray-700 leading-relaxed">
+              We realized that the solution wasn't better paperwork — it was better technology. Technology that understands healthcare workflows, respects patient privacy, and empowers doctors to spend more time caring and less time searching.
             </p>
-            <p className="text-lg text-[#1B5E7F] font-medium">
-              That's when DrSolv was created — to connect the fragmented care ecosystem into one seamless, instant
-              network.
+            <p className="text-lg text-[#1b6a52] font-semibold">
+              That's when {siteConfig.name} was created — to give every healthcare professional the tools they deserve to deliver exceptional patient care.
             </p>
           </div>
         </div>
       </section>
 
       {/* Mission, Vision, Values */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-6xl mx-auto space-y-8">
           <div data-animate className="grid md:grid-cols-3 gap-8">
-            <div className="p-8 bg-gray-50 rounded-lg border border-gray-200 text-center">
-              <div className="text-4xl text-[#1B5E7F] mb-4">🎯</div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-3">Mission</h3>
-              <p className="text-gray-700 font-light">
-                To connect every stakeholder in the healthcare ecosystem — patients, doctors, hospitals, labs,
-                pharmacies, and insurers — so that no one treats a stranger, no claim is delayed, and every second
-                counts for care that responds.
+            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200 text-center space-y-4">
+              <div className="text-4xl">🎯</div>
+              <h3 className="text-2xl font-bold text-gray-900">Mission</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Empower healthcare professionals with intelligent tools that streamline patient care, improve outcomes, and make healthcare delivery more efficient and effective.
               </p>
             </div>
 
-            <div className="p-8 bg-gray-50 rounded-lg border border-gray-200 text-center">
-              <div className="text-4xl text-[#1B5E7F] mb-4">🔭</div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-3">Vision</h3>
-              <p className="text-gray-700 font-light">
-                A healthcare system where medical data flows freely, emergencies are handled with complete information,
-                and care is never delayed by paperwork or fragmentation.
+            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200 text-center space-y-4">
+              <div className="text-4xl">🔭</div>
+              <h3 className="text-2xl font-bold text-gray-900">Vision</h3>
+              <p className="text-gray-700 leading-relaxed">
+                A healthcare system where medical data flows seamlessly, clinical decisions are informed by AI intelligence, and every healthcare professional can focus on what they do best — care.
               </p>
             </div>
 
-            <div className="p-8 bg-gray-50 rounded-lg border border-gray-200 text-center">
-              <div className="text-4xl text-[#1B5E7F] mb-4">💎</div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-3">Values</h3>
-              <p className="text-gray-700 font-light">
-                Privacy-first. Transparency always. Speed essential. Trust paramount. We believe healthcare data belongs
-                to patients, and instant access saves lives.
+            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200 text-center space-y-4">
+              <div className="text-4xl">💎</div>
+              <h3 className="text-2xl font-bold text-gray-900">Values</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Patient-first, Security-paramount, Innovation-driven, Transparency-absolute. We believe healthcare data belongs to patients and technology should serve clinicians, not the other way around.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Founders & Team */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-6xl mx-auto space-y-8">
+      {/* Why Choose Unidoc */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto space-y-12">
           <div data-animate className="text-center space-y-3">
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900">Meet the Team</h2>
-            <p className="text-lg text-gray-600 font-light">
-              Healthcare professionals united by a mission to save lives
-            </p>
+            <h2 className="text-4xl font-bold text-gray-900">Why Choose {siteConfig.name}</h2>
           </div>
 
-          <div 
-            data-animate 
-            className={`grid gap-8 pt-8 ${
-              teamMembers.length === 1 
-                ? 'md:grid-cols-1 max-w-md mx-auto' 
-                : teamMembers.length === 2 
-                ? 'md:grid-cols-2 max-w-4xl mx-auto' 
-                : 'md:grid-cols-3'
-            }`}
-          >
-            {teamMembers.map((member) => (
-              <div key={member.id} className="p-8 bg-white rounded-lg border border-gray-200 text-center">
-                <div className="w-69 h-69 relative rounded-lg  mx-auto mb-4 overflow-hidden">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-fit"
-                  />
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{member.name}</h3>
-                <p className="text-gray-700 font-light mb-2">
-                  {member.description}
-                </p>
-                <p className="text-sm text-[#1B5E7F] font-medium">
-                  {member.role}
+          <div className="space-y-6">
+            <div data-animate className="flex gap-6 p-6 bg-gray-50 rounded-2xl hover:bg-blue-50 transition">
+              <div className="text-4xl flex-shrink-0">🏥</div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Built for Healthcare Professionals</h3>
+                <p className="text-gray-700">
+                  Designed by healthcare professionals who understand clinical workflows, regulatory requirements, and the unique challenges of modern healthcare delivery.
                 </p>
               </div>
-            ))}
+            </div>
+
+            <div data-animate className="flex gap-6 p-6 bg-gray-50 rounded-2xl hover:bg-green-50 transition">
+              <div className="text-4xl flex-shrink-0">🤖</div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">AI-Powered Intelligence</h3>
+                <p className="text-gray-700">
+                  Leverage artificial intelligence to automate documentation, predict patient risks, assist clinical decisions, and optimize hospital workflows.
+                </p>
+              </div>
+            </div>
+
+            <div data-animate className="flex gap-6 p-6 bg-gray-50 rounded-2xl hover:bg-purple-50 transition">
+              <div className="text-4xl flex-shrink-0">🔐</div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Enterprise Security</h3>
+                <p className="text-gray-700">
+                  HIPAA-compliant, ABDM-integrated, with enterprise-grade encryption and compliance certifications that meet the highest healthcare standards.
+                </p>
+              </div>
+            </div>
+
+            <div data-animate className="flex gap-6 p-6 bg-gray-50 rounded-2xl hover:bg-amber-50 transition">
+              <div className="text-4xl flex-shrink-0">⚡</div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Instant Implementation</h3>
+                <p className="text-gray-700">
+                  Quick setup with comprehensive training and dedicated support. Our team ensures smooth transition and continuous optimization for your organization.
+                </p>
+              </div>
+            </div>
+
+            <div data-animate className="flex gap-6 p-6 bg-gray-50 rounded-2xl hover:bg-red-50 transition">
+              <div className="text-4xl flex-shrink-0">📈</div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Proven Results</h3>
+                <p className="text-gray-700">
+                  Healthcare organizations using {siteConfig.name} report 70% reduction in documentation time, 90% improvement in data access speed, and significant improvement in patient satisfaction.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Trust & Impact */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-6xl mx-auto space-y-8">
+      {/* Impact & Trust */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <div className="max-w-6xl mx-auto space-y-12">
           <div data-animate className="text-center space-y-3">
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900">Trusted by Healthcare Leaders</h2>
+            <h2 className="text-4xl font-bold text-gray-900">Trusted by Healthcare Leaders</h2>
           </div>
 
-          <div data-animate className="grid md:grid-cols-2 gap-8 pt-8">
-            <div className="p-8 bg-gray-50 rounded-lg border border-gray-200">
-              <div className="text-4xl font-bold text-[#1B5E7F] mb-2">500+</div>
-              <p className="text-gray-700 font-light">Healthcare providers using DrSolv</p>
+          <div data-animate className="grid md:grid-cols-2 gap-8">
+            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200">
+              <div className="text-5xl font-bold text-[#1b6a52] mb-2">500+</div>
+              <p className="text-gray-700 font-medium">Healthcare providers using {siteConfig.name}</p>
             </div>
 
-            <div className="p-8 bg-gray-50 rounded-lg border border-gray-200">
-              <div className="text-4xl font-bold text-[#1B5E7F] mb-2">50K+</div>
-              <p className="text-gray-700 font-light">Lives directly protected</p>
+            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200">
+              <div className="text-5xl font-bold text-[#1b6a52] mb-2">50K+</div>
+              <p className="text-gray-700 font-medium">Patients benefiting daily from improved care</p>
             </div>
 
-            <div className="p-8 bg-gray-50 rounded-lg border border-gray-200">
-              <div className="text-4xl font-bold text-[#1B5E7F] mb-2">24/7</div>
-              <p className="text-gray-700 font-light">Emergency response ready system</p>
+            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200">
+              <div className="text-5xl font-bold text-[#1b6a52] mb-2">70%</div>
+              <p className="text-gray-700 font-medium">Average reduction in documentation time</p>
             </div>
 
-            <div className="p-8 bg-gray-50 rounded-lg border border-gray-200">
-              <div className="text-4xl font-bold text-[#1B5E7F] mb-2">100%</div>
-              <p className="text-gray-700 font-light">Data privacy compliant</p>
+            <div className="p-8 bg-white rounded-2xl border-2 border-gray-200">
+              <div className="text-5xl font-bold text-[#1b6a52] mb-2">100%</div>
+              <p className="text-gray-700 font-medium">HIPAA & ABDM compliance guaranteed</p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Form Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-2xl mx-auto">
-          <div data-animate className="text-center space-y-3 mb-12">
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900">Get In Touch</h2>
-            <p className="text-lg text-gray-600 font-light">Have questions? We'd love to hear from you.</p>
-          </div>
-
-          <div data-animate className="bg-white rounded-lg border border-gray-200 p-8">
-            <form className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-medium text-gray-900 mb-2">Full Name</label>
-                  <input
-                    type="text"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-[#1B5E7F]"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-900 mb-2">Email</label>
-                  <input
-                    type="email"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-[#1B5E7F]"
-                    placeholder="your@email.com"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-900 mb-2">Organization</label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-[#1B5E7F]"
-                  placeholder="Hospital / Insurance / Lab / Pharmacy"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-900 mb-2">Message</label>
-                <textarea
-                  rows={5}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-[#1B5E7F]"
-                  placeholder="Tell us how we can help"
-                ></textarea>
-              </div>
-
-              <button className="w-full bg-[#1B5E7F] hover:bg-[#164557] text-white px-8 py-3 rounded-lg font-medium transition">
-                Send Message
-              </button>
-            </form>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto text-center space-y-6">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto text-center space-y-8">
           <div data-animate>
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900">Join the Healthcare Revolution</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">Ready to Transform Your Healthcare Delivery?</h2>
+            <p className="text-lg text-gray-700 font-medium mt-4 max-w-2xl mx-auto">
+              Join healthcare professionals who are already using {siteConfig.name} to deliver better patient care.
+            </p>
           </div>
 
           <div data-animate className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/hospital"
-              className="px-8 py-3 bg-[#1B5E7F] text-white font-medium rounded-lg transition text-center"
+              href="/#contact"
+              className="px-8 py-3 bg-[#1b6a52] hover:bg-[#15544a] text-white font-medium rounded-lg transition text-center"
             >
-              For Hospitals
+              Get Started Today
             </Link>
             <Link
-              href="/individuals"
-              className="px-8 py-3 bg-gray-100 text-gray-900 font-medium rounded-lg transition border border-gray-200 text-center"
+              href="/#features"
+              className="px-8 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 font-medium rounded-lg transition border border-gray-200 text-center"
             >
-              For Individuals
-            </Link>
-            <Link
-              href="/insurance"
-              className="px-8 py-3 bg-white text-gray-900 font-medium rounded-lg transition border border-gray-200 text-center"
-            >
-              For Partners
+              Explore Features
             </Link>
           </div>
         </div>

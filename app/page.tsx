@@ -4,16 +4,12 @@ import { useEffect } from "react"
 import gsap from "gsap"
 import ScrollTrigger from "gsap/ScrollTrigger"
 import Navigation from "@/components/navigation"
-import DrSolvHero from "@/components/drsolv-hero"
-import DrSolvProblem from "@/components/drsolv-problem"
-import DrSolvVision from "@/components/drsolv-vision"
-import DrSolvFeatures from "@/components/drsolv-features"
-import DrSolvEcosystem from "@/components/drsolv-ecosystem"
-import DrSolvJourney from "@/components/drsolv-journey"
-import DrSolvImpact from "@/components/drsolv-impact"
-import DrSolvStories from "@/components/drsolv-stories"
-import DrSolvTestimonials from "@/components/drsolv-testimonials"
-import DrSolvPartners from "@/components/drsolv-partners"
+import UnidocHero from "@/components/unidoc-hero"
+import UnidocProblem from "@/components/unidoc-problem"
+import UnidocFeaturesSticky from "@/components/unidoc-features-sticky"
+import UnidocAICapabilities from "@/components/unidoc-ai-capabilities"
+import UnidocTestimonials from "@/components/unidoc-testimonials"
+import UnidocCTA from "@/components/unidoc-cta"
 import Footer from "@/components/footer"
 
 gsap.registerPlugin(ScrollTrigger)
@@ -78,16 +74,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       <Navigation />
-      <DrSolvHero />
-      <DrSolvProblem />
-      <DrSolvVision />
-      <DrSolvFeatures />
-      <DrSolvEcosystem />
-      <DrSolvJourney />
-      {/* <DrSolvImpact /> */}
-      <DrSolvStories />
-      <DrSolvTestimonials />
-      <DrSolvPartners />
+      <UnidocHero />
+      <UnidocProblem />
+      <UnidocFeaturesSticky />
+      <UnidocAICapabilities />
+      <UnidocTestimonials />
+      <UnidocCTA />
       <Footer />
     </main>
   )

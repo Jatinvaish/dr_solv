@@ -8,9 +8,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "DrSolv - Healthcare Solutions Platform",
+  title: "Unidoc - AI-Powered Healthcare EMR Platform",
   description:
-    "Professional healthcare solutions platform designed to streamline healthcare management. Connect. Collaborate. Succeed.",
+    "Transform healthcare delivery with Unidoc's intelligent EMR platform. Manage patient records, streamline workflows, and deliver better care outcomes.",
   icons: {
     icon: [
       {
